@@ -1,0 +1,13 @@
+#What workstation this file is for
+repositories:
+  # Depends on:
+    pointgrey_camera_driver:
+        type: git
+        url: https://github.com/RIVeR-Lab/pointgrey_camera_driver.git
+        version: master
+
+  #Depends on:
+    multisense_ros:
+        type: git
+        url: https://github.com/RIVeR-Lab/multisense_ros.git
+        version: master
