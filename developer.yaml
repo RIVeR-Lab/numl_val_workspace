@@ -25,7 +25,7 @@ repositories:
         version: master
 
   #Depends on:
-    valkyrie_twist_teleop:
+    valkyrie_rqt_reconfigure:
         type: git
         url: git@github.com:uml-robotics/valkyrie_rqt_reconfigure.git
         version: master
