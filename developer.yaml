@@ -1,0 +1,31 @@
+#What workstation this file is for
+repositories:
+  # Depends on:
+    pointgrey_camera_driver:
+        type: git
+        url: https://github.com/RIVeR-Lab/pointgrey_camera_driver.git
+        version: master
+
+  #Depends on:
+    multisense_ros:
+        type: git
+        url: https://github.com/RIVeR-Lab/multisense_ros.git
+        version: master
+  
+  #Depends on:
+    numl_launch:
+        type: git
+        url: git@github.com:RIVeR-Lab/numl_launch.git
+        version: master
+
+  #Depends on:
+    valkyrie_twist_teleop:
+        type: git
+        url: git@github.com:uml-robotics/valkyrie_twist_teleop.git
+        version: master
+
+  #Depends on:
+    valkyrie_twist_teleop:
+        type: git
+        url: git@github.com:uml-robotics/valkyrie_rqt_reconfigure.git
+        version: master
