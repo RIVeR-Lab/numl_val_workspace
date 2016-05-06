@@ -4,34 +4,34 @@ repositories:
     numl_val_mobility:
         type: git
         url: git@github.com:RIVeR-Lab/numl_val_mobility.git
-        version: master
+        version: develop
 
   #Depends on:
     numl_val_manipulation:
         type: git
         url: git@github.com:RIVeR-Lab/numl_val_manipulation.git
-        version: master
+        version: develop
   
   #Depends on:
     numl_val_sensing:
         type: git
         url: git@github.com:RIVeR-Lab/numl_val_sensing.git
-        version: master
+        version: develop
 
   #Depends on:
     numl_val_misc:
         type: git
         url: git@github.com:RIVeR-Lab/numl_val_misc.git
-        version: master
+        version: develop
 
   #Depends on:
     numl_val_demo:
         type: git
         url: git@github.com:RIVeR-Lab/numl_val_demo.git
-        version: master
+        version: develop
 
   #Depends on:
     numl_val_bringup:
         type: git
         url: git@github.com:RIVeR-Lab/numl_val_bringup.git
-        version: master
+        version: develop
