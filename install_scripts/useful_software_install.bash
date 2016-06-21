@@ -25,7 +25,7 @@ sudo apt-get -y install wireshark
 sudo apt-get -y install ntp
 
 cd ~/Downloads/
-wget http://mirrors.ibiblio.org/pub/mirrors/eclipse/technology/epp/downloads/release/mars/2/eclipse-java-mars-2-linux-gtk-x86_64.tar.gz
+wget http://mirror.cc.columbia.edu/pub/software/eclipse/technology/epp/downloads/release/mars/2/eclipse-java-mars-2-linux-gtk-x86_64.tar.gz
 tar xvf eclipse-java-mars-2-linux-gtk-x86_64.tar.gz
 sudo mv eclipse /opt/
 echo '[Desktop Entry]' >> eclipse.desktop
