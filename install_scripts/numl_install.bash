@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
   onlyroot="Do not run this as root."
 
 if [ $(whoami) == 'root' ];then

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
   onlyroot="Do not run this as root."
   
 if [ $(whoami) == 'root' ];then
@@ -29,6 +29,7 @@ sudo apt-get -y install binutils ca-certificates cpp cpp-4.8 curl fontconfig fon
 sudo apt-get -y install -f
 
 sudo apt-get -y install ros-indigo-ros-base
+sudo apt-get -y install syslog-ng
 
 cd ~/Downloads
 
