@@ -26,7 +26,7 @@ sudo apt-get -y install  libglew-dev libcheese7 libcheese-gtk23 libclutter-gst-2
 
 sudo apt-get -y install binutils ca-certificates cpp cpp-4.8 curl fontconfig fontconfig-config fonts-dejavu-core g++ g++-4.8 gcc gcc-4.8 git git-flow htop iso-codes krb5-locales libamd2.3.1 libasan0 libatomic1 libaudio2 libavahi-client3 libavahi-common-data libavahi-common3 libblas3 libc-dev-bin libc6-dev libcamd2.3.1 libccolamd2.8.0 libcholmod2.1.2 libcloog-isl4 libcolamd2.8.0 libcups2 libdrm-intel1 libelf1 libexpat1-dev libfontconfig1 libfreetype6 libgcc-4.8-dev libgfortran3 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libglib2.0-0 libglib2.0-data libgmp10 libgomp1 libgssapi-krb5-2 libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libice6 libisl10 libitm1 libjbig0 libjpeg-turbo8 libjpeg8 libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 liblapack3 liblcms2-2 libllvm3.4 libmpc3 libmpfr4 libmysqlclient18 liborc-0.4-0 libpciaccess0 libpython-dev libpython-stdlib libpython2.7 libpython2.7-dev libpython2.7-minimal libpython2.7-stdlib libqt4-dbus libqt4-declarative libqt4-designer libqt4-help libqt4-network libqt4-opengl libqt4-script libqt4-scripttools libqt4-sql libqt4-sql-mysql libqt4-svg libqt4-test libqt4-xml libqt4-xmlpatterns libqtassistantclient4 libqtcore4 libqtdbus4 libqtgui4 libqtwebkit4 libquadmath0 libsm6 libstdc++-4.8-dev libtiff5 libtsan0 libtxc-dxtn-s2tc0 libumfpack5.6.2 libwebp5 libwebpmux1 libx11-6 libx11-data libx11-xcb1 libxau6 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-sync1 libxcb1 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxi6 libxml2 libxrender1 libxshmfence1 libxslt1.1 libxt6 libxxf86vm1 linux-libc-dev lm-sensors manpages manpages-dev mysql-common nano openssl python python-decorator python-dev python-imaging python-minimal python-numpy python-pil python-pip python-qt4 python-rosdep python-scipy python-sip python-six python-support python-vcstool python2.7 python2.7-dev python2.7-minimal qdbus qtchooser qtcore4-l10n ros-indigo-catkin sgml-base shared-mime-info syslog-ng-core vim wget x11-common xml-core nfs-common libffi-dev  
 
-sudo apt-get install -f
+sudo apt-get -y install -f
 #!/bin/bash
 cd ~/Downloads
 
@@ -72,6 +72,8 @@ vcs custom --args checkout master
 rosdep install --from-paths src -i -y
 rosdep install --from-paths src -i -y
 rosdep install --from-paths src -i -y
+
+sudo apt-get -y install ros-indigo-rosbash
 
 catkin_make install
 source ~/.bashrc
