@@ -45,7 +45,8 @@ sudo rosdep init
 
 sudo sh -c 'echo "yaml https://raw.githubusercontent.com/NASA-JSC-Robotics/nasa_common_rosdep/master/nasa-common.yaml"  > /etc/ros/rosdep/sources.list.d/10-nasa-common.list'
 sudo sh -c 'echo "yaml https://raw.githubusercontent.com/NASA-JSC-Robotics/nasa_common_rosdep/master/nasa-trusty.yaml"  > /etc/ros/rosdep/sources.list.d/11-nasa-trusty.list'
-sudo sh -c 'echo "yaml https://raw.githubusercontent.com/NASA-JSC-Robotics/nasa_common_rosdep/master/nasa-gazebo4.yaml" > /etc/ros/rosdep/sources.list.d/12-nasa-gazebo4.list'
+sudo sh -c 'echo "yaml https://raw.githubusercontent.com/NASA-JSC-Robotics/nasa_common_rosdep/master/nasa-indigo-gazebo7.yaml" > /etc/ros/rosdep/sources.list.d/12-nasa-gazebo7.list'
+
 
 rosdep update
 
