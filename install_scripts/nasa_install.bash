@@ -79,16 +79,16 @@ catkin_init_workspace
 # in order to run this command user needs create ssh key and copy-paste it to his/her gitlab account.
 git clone -b develop git@gitlab.com:nasa-jsc-robotics/val_workspaces.git ~/val_workspaces
 
-# vcs import --input ~/val_workspaces/public_developer_workspace.yaml ~/val_indigo/src/
-# rm -rf ~/val_indigo/src/val_vision
-#
-# source ~/.bashrc
-#
-# cd ~/val_indigo
-# vcs custom --args checkout master
-# rosdep install --from-paths src -i -y
-# rosdep install --from-paths src -i -y
-# rosdep install --from-paths src -i -y
-#
-# catkin_make install
-# source ~/.bashrc
+vcs import --input ~/val_workspaces/public_developer_workspace.yaml ~/val_indigo/src/
+rm -rf ~/val_indigo/src/val_vision
+
+source ~/.bashrc
+
+cd ~/val_indigo
+vcs custom --args checkout master
+rosdep install --from-paths src -i -y
+rosdep install --from-paths src -i -y
+rosdep install --from-paths src -i -y
+
+catkin_make install
+source ~/.bashrc
