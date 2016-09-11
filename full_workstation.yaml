@@ -37,7 +37,7 @@ repositories:
         version: develop
   
   #Depends on:
-    numl_val_bringup:
+    numl_val_interface:
         type: git
         url: git@github.com:RIVeR-Lab/numl_val_interface.git
         version: develop
