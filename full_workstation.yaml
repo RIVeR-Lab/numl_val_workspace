@@ -41,3 +41,9 @@ repositories:
         type: git
         url: git@github.com:RIVeR-Lab/numl_val_interface.git
         version: develop
+        
+  #Depends on:
+    numl_val_msgs:
+        type: git
+        url: git@github.com:RIVeR-Lab/numl_val_msgs.git
+        version: develop
