@@ -11,9 +11,10 @@ Use an existing .yaml file (or create a new .yaml file from the template) to pul
 cd ~
 git clone git@github.com:RIVeR-Lab/numl_val_workspace.git
 mkdir -p numl_catkin_ws/src
-cd numl_catkin_ws/src
+cd numl_catkin_ws
 catkin config --init --mkdirs
 catkin config --extend ~/ihmc_catkin_ws/install
+cd src
 vcs import < "$HOME"/numl_val_workspace/full_workstation.yaml
 cd ..
 catkin build
