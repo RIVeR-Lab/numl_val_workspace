@@ -1,17 +1,11 @@
 #What workstation this file is for
 repositories:
   # Depends on:
-    numl_val_mobility:
+    numl_val_motion:
         type: git
-        url: git@github.com:RIVeR-Lab/numl_val_mobility.git
+        url: git@github.com:RIVeR-Lab/numl_val_motion.git
         version: develop
-
-  #Depends on:
-    numl_val_manipulation:
-        type: git
-        url: git@github.com:RIVeR-Lab/numl_val_manipulation.git
-        version: develop
-  
+        
   #Depends on:
     numl_val_sensing:
         type: git
@@ -22,12 +16,6 @@ repositories:
     numl_val_misc:
         type: git
         url: git@github.com:RIVeR-Lab/numl_val_misc.git
-        version: develop
-
-  #Depends on:
-    numl_val_demo:
-        type: git
-        url: git@github.com:RIVeR-Lab/numl_val_demo.git
         version: develop
 
   #Depends on:
